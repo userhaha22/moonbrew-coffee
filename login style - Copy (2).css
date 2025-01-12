@@ -1,0 +1,67 @@
+
+/* Login Page Styles */
+.login-container {
+    background-color: #efebe9; /* Light mocha */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #5d4037; /* Medium brown heading */
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #4e342e; /* Rich brown text */
+}
+
+.login-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d7ccc8; /* Beige border */
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #795548; /* Warm brown button */
+    color: #ffffff; /* White text */
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.login-container button:hover {
+    background-color: #5d4037; /* Slightly darker brown */
+}
+
+.login-container p {
+    text-align: center;
+    margin-top: 15px;
+    color: #4e342e;
+}
+
+.login-container p a {
+    color: #6d4c41; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-container p a:hover {
+    text-decoration: underline;
+}
+
